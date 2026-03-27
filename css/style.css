@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.patient-info {
+  margin-bottom: 30px;
+}
+
+.chart-section {
+  height: 400px;
+}
