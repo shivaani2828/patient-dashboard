@@ -29,3 +29,6 @@ function renderChart(patient) {
 }
 
 getPatientData();
+document.getElementById('patient-name').textContent = patient.name;
+document.getElementById('patient-age').textContent = `Age: ${patient.age}`;
+
